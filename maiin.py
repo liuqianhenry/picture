@@ -2,7 +2,6 @@
 # @Time   : 2019-10-09 18:01
 # @Author : liuqian
 import os
-
 import cairosvg
 
 
@@ -15,4 +14,4 @@ def main(input, output):
 if __name__ == '__main__':
     input = "/flink/flink.svg"
     output = "/flink/flink.png"
-    main(input,output)
+    main(input, output)
