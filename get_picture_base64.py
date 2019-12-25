@@ -3,12 +3,14 @@
 # @Author : liuqian
 import base64
 
+
 def get_base64(path):
     f = open(path, 'rb')  # 二进制方式打开图文件
     ls_f = base64.b64encode(f.read())  # 读取文件内容，转换为base64编码
     f.close()
-    print(ls_f)
+    print(str(ls_f).strip("b'"))
+
 
 if __name__ == '__main__':
-    path = '/opt/core/picture/ES_Framework.png'
+    path = '/opt/core/picture/2-16.png'
     get_base64(path)
