@@ -12,5 +12,5 @@ def get_base64(path):
 
 
 if __name__ == '__main__':
-    path = '/opt/core/picture/2-16.png'
+    path = '/opt/core/picture/2-3.png'
     get_base64(path)
